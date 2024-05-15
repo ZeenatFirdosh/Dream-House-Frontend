@@ -104,16 +104,15 @@ const ListingDetails = () => {
         </div>
 
         <div className="photos">
-          {listing.listingPhotoPaths?.map((item) => (
+          {listing?.listingPhotoPaths?.map((item) => (
             <img
-              src={`${process.env.REACT_APP_BASE_URL}/${item.replace("public", "")}`}
-              alt="listing photo"
+              src={item} alt="listing photo"
             />
           ))}
         </div>
 
         <h2>
-          {listing.type} in {listing.city}, {listing.province},{" "}
+          {listing?.type} in {listing?.city}, {listing.province},{" "}
           {listing.country}
         </h2>
         <p>
@@ -124,23 +123,20 @@ const ListingDetails = () => {
 
         <div className="profile">
           <img
-            src={`${process.env.REACT_APP_BASE_URL}/${listing.creator.profileImagePath.replace(
-              "public",
-              ""
-            )}`}
+            src={listing?.creator?.profileImagePath}
           />
           <h3>
-            Hosted by {listing.creator.firstName} {listing.creator.lastName}
+            Hosted by {listing?.creator?.firstName} {listing?.creator?.lastName}
           </h3>
         </div>
         <hr />
 
         <h3>Description</h3>
-        <p>{listing.description}</p>
+        <p>{listing?.description}</p>
         <hr />
 
-        <h3>{listing.highlight}</h3>
-        <p>{listing.highlightDesc}</p>
+        <h3>{listing?.highlight}</h3>
+        <p>{listing?.highlightDesc}</p>
         <hr />
 
         <div className="booking">
