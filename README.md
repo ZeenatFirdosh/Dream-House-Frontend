@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# Home Rentals Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Deployed Link  [My Dream House](https://my-dreamhouse.netlify.app/) : https://my-dreamhouse.netlify.app/
 
-## Available Scripts
+This Full Stack Home Rentals Application is built using React JS, Redux, Node JS, MongoDB, JWT authentication, and Material UI. It enables users to manage property listings, bookings, wishlists, and more.
 
-In the project directory, you can run:
+## Key Features
 
-### `npm start`
+- **Authentication**: Users can sign up and log in securely using JWT tokens and Bcrypt encryption.
+- **Listing Creation**: Create detailed property listings with various options and information.
+- **Photo Management**: Upload, delete, and drag & drop photos for property listings.
+- **Booking System**: Create bookings using a calendar interface.
+- **Property Feed**: Fetch property feed categorized by various criteria.
+- **Property Search**: Search for properties using keywords.
+- **Wishlist Management**: Add and remove items from the wishlist.
+- **Photo Upload**: Upload photos locally and store them in MongoDB using Mongoose Schema.
+- **State Management**: Redux is used for efficient state management.
+- **User Interface**: Material UI provides a sleek and intuitive user interface.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **Frontend**: React JS, Redux, Material UI
+- **Backend**: Node JS, Express JS
+- **Database**: MongoDB
+- **Authentication**: JWT, Bcrypt
+- **Schema Management**: Mongoose
 
-### `npm test`
+## Deployment
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The application is deployed at [My Dream House](https://my-dreamhouse.netlify.app/).
