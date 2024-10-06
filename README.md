@@ -4,6 +4,8 @@
 
 This Full Stack Home Rentals Application is built using React JS, Redux, Node JS, MongoDB, JWT authentication, and Material UI. It enables users to manage property listings, bookings, wishlists, and more.
 
+![image](https://github.com/user-attachments/assets/42d6fdee-3902-4318-a4a7-781009259d7c)
+
 ## Key Features
 
 - **Authentication**: Users can sign up and log in securely using JWT tokens and Bcrypt encryption.
