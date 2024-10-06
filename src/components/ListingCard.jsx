@@ -46,9 +46,10 @@ const ListingCard = ({
   const wishList = user?.wishList || [];
 
   const isLiked = wishList?.find((item) => item?._id === listingId);
-
+  console.log("user: ", user, "wishList: ", wishList, "isLiked: ", isLiked, "creator: ",creator, "listingId : ", listingId );
+  
   const patchWishList = async () => {
-    if (user?._id !== creator._id) {
+    if (user?._id !== creator?._id) {
     const response = await fetch(
       `${process.env.REACT_APP_BASE_URL}/users/${user?._id}/${listingId}`,
       {
